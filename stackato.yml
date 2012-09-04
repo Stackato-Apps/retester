@@ -1,0 +1,20 @@
+name: retester
+framework:
+  type: perl
+
+mem: 128M
+
+requirements:
+  ppm:
+    - Mojolicious
+    - Try::Tiny
+    - Capture::Tiny
+    - Time::HiRes
+    - Sys::SigAction
+    - Safe
+    - Carp
+    - Moo
+    - Plack
+    - Test::More
+    - Test::Exception
+    - List::MoreUtils
