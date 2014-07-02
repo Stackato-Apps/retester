@@ -1,7 +1,14 @@
-#Retester
+retester
+========
 
-Perl and Mojolicious based web application for testing and debugging regular expressions.
+A web application for testing and debugging Regular Expressions, powered by the Perl 
+programming language, and the Mojolicoius web framework.
 
-##Deploy on Stackato
+Currently this app is live, hosted at Heroku at the following URL:
+
+http://retester.herokuapp.com/
+
+Deploy on Stackato
+-------------------
 
     stackato push -n
