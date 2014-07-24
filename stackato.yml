@@ -1,20 +1,4 @@
 name: retester
-framework:
-  type: perl
+buildpack: https://github.com/ActiveState/stackato-buildpack-perl.git
 
 mem: 128M
-
-requirements:
-  ppm:
-    - Mojolicious
-    - Try::Tiny
-    - Capture::Tiny
-    - Time::HiRes
-    - Sys::SigAction
-    - Safe
-    - Carp
-    - Moo
-    - Plack
-    - Test::More
-    - Test::Exception
-    - List::MoreUtils
