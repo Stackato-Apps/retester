@@ -1,3 +1,0 @@
-name: retester
-buildpack: https://github.com/ActiveState/stackato-buildpack-perl.git
-mem: 128M
