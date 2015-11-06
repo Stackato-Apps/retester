@@ -8,7 +8,7 @@ Currently this app is live, hosted at Heroku at the following URL:
 
 http://retester.herokuapp.com/
 
-Deploy on Stackato
--------------------
+Deploy on HPE Helion Stackato
+-----------------------------
 
     stackato push -n
